@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.active {
+    background: #C7D0FA !important;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.activeBtn {
+    color: #3A0CA3 !important;
+    border-bottom: 4px solid #3A0CA3 !important;
+}
