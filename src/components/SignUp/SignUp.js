@@ -1,8 +1,6 @@
-import { Box, Button, Flex, Text } from '@chakra-ui/react';
+import { Box, Button, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {FcGoogle} from 'react-icons/fc'
-import {FaFacebook, FaInstagram} from 'react-icons/fa'
 
 export default function SignUp() {
   return (

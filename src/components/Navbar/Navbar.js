@@ -8,7 +8,7 @@ import LoginModal from '../LoginModal/LoginModal';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{zIndex: '2'}}>
       <a
         className="navbar-brand d-flex align-items-center mr-4"
         href="/"
@@ -68,6 +68,7 @@ export default function Navbar() {
           Login/Register
         </a>
       </div>
+
       <div
         className="modal fade"
         id="exampleModalCenter"
@@ -75,6 +76,7 @@ export default function Navbar() {
         role="dialog"
         aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true"
+        data-backdrop="false"
       >
         <div
           className="modal-dialog modal-dialog-centered modal-lg"
@@ -87,6 +89,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      
     </nav>
   );
 }

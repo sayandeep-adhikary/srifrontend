@@ -1,0 +1,44 @@
+.headerContainer {
+    position: relative;
+    background: url(../../assets/headerBackground.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+.textContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 0 0 2px black;
+}
+.searchBarContainer {
+    bottom: -5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (width < 500px){
+    .headerContainer {
+        height: 100vh;
+    }
+    .textContainer {
+        font-size: 2.5rem !important;
+        text-shadow: 0 0 5px black;
+    }
+    .searchBarContainer {
+        bottom: -4rem;
+        min-width: 95vw !important;
+        padding: 0 10px !important;
+    }
+    .searchBarContainer input {
+        font-size: 1rem !important;
+        min-height: 4rem !important;
+    }
+    .searchBarContainer button {
+        font-size: 1rem !important;
+    }
+}

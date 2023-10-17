@@ -1,13 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Quicksand&display=swap');
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .active {
-    background: #C7D0FA !important;
-    border-radius: 20px;
-    font-weight: 600;
+  background: #c7d0fa !important;
+  border-radius: 20px;
+  font-weight: 600;
 }
 .activeBtn {
-    color: #3A0CA3 !important;
-    border-bottom: 4px solid #3A0CA3 !important;
+  color: #3a0ca3 !important;
+  border-bottom: 4px solid #3a0ca3 !important;
+}
+.swiper-button-prev, .swiper-button-next {
+  margin: -3rem -1rem;
+  height: 4rem;
+  width: 4rem;
+  scale: 0.5;
+  color: white;
+  background: #3a0ca3;
+  border-radius: 50%;
 }
