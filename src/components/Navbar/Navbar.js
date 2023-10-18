@@ -54,6 +54,9 @@ export default function Navbar() {
           <NavLink className="nav-link my-2" to="/blogs">
             <li className="nav-item mx-2">Blogs</li>
           </NavLink>
+          <NavLink className="nav-link my-2" to="/profile">
+            <li className="nav-item mx-2">Profile</li>
+          </NavLink>
         </ul>
         <a
           className={`d-flex align-items-center justify-content-center mr-4 my-3 ${styles.navItemContainer}`}
