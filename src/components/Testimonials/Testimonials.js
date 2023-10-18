@@ -1,26 +1,19 @@
 import React from 'react';
 import {
   Box,
-  Button,
-  Card,
-  CardBody,
-  Flex,
-  Heading,
   Image,
-  Stack,
   Text,
 } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import fan from '../../assets/fan.png';
 import testimonial1 from '../../assets/testomonial1.png';
 import testimonial2 from '../../assets/testomonial2.png';
 
 export default function Testimonials() {
   return (
-    <Box mt={20} py={20} textAlign={'center'} bg={'#edeff6'}>
+    <Box mt={20} mb={40} py={20} textAlign={'center'} bg={'#edeff6'}>
       <Text color={'#3a0ca3'} fontSize={'1.2rem'} fontWeight={600}>
         TESTIMONIALS
       </Text>

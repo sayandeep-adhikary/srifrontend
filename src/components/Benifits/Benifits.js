@@ -12,7 +12,7 @@ import { BiHome } from 'react-icons/bi';
 
 export default function Benifits() {
   return (
-    <Box mt={20} mb={10} textAlign={'center'} bg={'#EDEFF6'} py={10}>
+    <Box mt={20} mb={10} textAlign={'center'} >
       <Text color={'#3a0ca3'} fontSize={'1.2rem'} fontWeight={600}>
         BENEFITS OF XYZ
       </Text>

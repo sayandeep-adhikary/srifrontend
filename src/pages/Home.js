@@ -8,6 +8,7 @@ import Trending from '../components/Trending/Trending'
 import Cities from '../components/Cities/Cities'
 import Benifits from '../components/Benifits/Benifits'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Cities/>
       <Benifits/>
       <Testimonials/>
+      <Footer/>
     </>
   )
 }
