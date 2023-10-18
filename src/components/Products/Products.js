@@ -26,18 +26,14 @@ export default function Products() {
           src={construction}
           alt="xxx"
           className="img-fluid"
-          opacity={0.8}
+          style={{filter: 'brightness(75%)'}}
         />
         <Stack
           pos={'absolute'}
           fontSize={'1.2rem'}
-          style={{
-            top: '60%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}
           align={'center'}
           className={styles.stack}
+          minW={'100vw'}
         >
           <Flex
             color={'white'}
