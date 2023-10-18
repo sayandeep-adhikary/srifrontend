@@ -42,7 +42,6 @@ import {
             alt="xxx"
             className="img-fluid"
             style={{ filter: 'brightness(75%)' }}
-            borderRadius={'lg'}
           />
           <Stack
             pos={'absolute'}
