@@ -20,7 +20,7 @@ body {
   border-bottom: 4px solid #3a0ca3 !important;
 }
 .swiper-button-prev, .swiper-button-next {
-  margin: -3rem -1rem;
+  margin: -2rem -1rem;
   height: 4rem;
   width: 4rem;
   scale: 0.5;

@@ -9,6 +9,8 @@ import Cities from '../components/Cities/Cities'
 import Benifits from '../components/Benifits/Benifits'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Footer from '../components/Footer/Footer'
+import ProductsEE from '../components/ProductsEE/ProductsEE'
+import ProductsPharma from '../components/ProductsPharma/ProductsPharma'
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Offerings/>
       <Products/>
       <Trending/>
+      <ProductsEE/>
+      <ProductsPharma/>
       <Cities/>
       <Benifits/>
       <Testimonials/>
